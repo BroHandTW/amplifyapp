@@ -15,9 +15,10 @@
 
 .App {
 	width: 450px;
+	min-width: 450px;
 	display: flex;
-	height: 70vh;
-	justify-content: space-around;
+  min-height: 900px;
+	/* justify-content: space-around; */
 	flex-direction: column;
 	background: #ffff;
 	border-radius: 10px;

@@ -15,7 +15,7 @@ function MyCards() {
   };
 
   return (
-    <div className="myCardForm">
+    <div className="myCardForm" style={{paddingTop: '25px', backgroundColor: 'white'}}>
       <Cards
 				cvc={cardCVC}
 				expiry={cardExpiry.replaceAll(' ', '')}

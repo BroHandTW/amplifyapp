@@ -1,0 +1,49 @@
+.PriceTag {
+  background: #ccc;
+  margin: 15px 40px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+}
+
+.PriceTag.active {
+  border-color: green;
+}
+
+.PriceTag .desc {
+  display: inline-block;
+}
+
+.PriceTag .price {
+  float: right;
+}
+
+.PriceTag .credit {
+  font-size: 40px;
+  font-weight: 700;
+  color: green;
+}
+
+.desc {
+  font-weight: 700;
+}
+
+.desc .point {
+  font-size: 18px;
+}
+.desc .hint {
+  color: brown;
+  font-size: 12px
+}
+
+.price {
+  font-weight: 600;
+
+}
+.price .dollarSign {
+  vertical-align: top;
+}
+
+.price .value {
+  font-size: 34px;
+}
