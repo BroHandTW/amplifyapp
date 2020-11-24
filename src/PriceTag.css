@@ -12,6 +12,7 @@
 
 .PriceTag .desc {
   display: inline-block;
+  margin-left: 5px;
 }
 
 .PriceTag .price {
@@ -38,10 +39,6 @@
 
 .price {
   font-weight: 600;
-
-}
-.price .dollarSign {
-  vertical-align: top;
 }
 
 .price .value {
