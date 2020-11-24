@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <PriceBox />
       <Card />
+      <button className="payButton">PAY</button>
     </div>
   );
 }
