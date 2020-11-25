@@ -22,7 +22,7 @@ function PriceBox() {
                   currency={currency}
                   active={info.id === active}
                   onClickEvent={setActive} />) }
-      <div className="unitSelector" style={{margin: '0 40px', textAlign: 'right'}}>
+      <div className="unitSelector" style={{margin: '0 20px', textAlign: 'right'}}>
         <label><input type="radio" name="currency" value="usd" checked={currency === 'usd'} onChange={({target})=> setCurrency(target.value)}/>USD</label>
         <label><input type="radio" name="currency" value="php" checked={currency === 'php'} onChange={({target})=> setCurrency(target.value)}/>PHP</label>
         <input type="hidden" id="pay[currency]" value={ currency.toUpperCase() } />
